@@ -1,0 +1,28 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"description": "For LogicApp",
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": {
+						"value": "@pipeline().parameters.WaitTimeInseconds",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"WaitTimeInseconds": {
+				"type": "int"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-09-22T09:40:35Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

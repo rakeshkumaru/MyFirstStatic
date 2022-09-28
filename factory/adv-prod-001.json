@@ -1,0 +1,9 @@
+{
+	"name": "adv-prod-001",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "29b4c61c-b010-4499-94c4-c8d76cd91cbb",
+		"tenantId": "6ecdc202-48dd-4d76-bec9-fdf5fd9f65b9"
+	}
+}
