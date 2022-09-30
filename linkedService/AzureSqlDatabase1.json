@@ -1,6 +1,5 @@
 {
 	"name": "AzureSqlDatabase1",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureSqlDatabase",
@@ -14,5 +13,6 @@
 				"secretName": "DB"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
